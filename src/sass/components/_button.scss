@@ -1,0 +1,22 @@
+.btn {
+	@apply bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-all duration-300 ease-in-out;
+
+	&--red-border {
+		border: #ff0000 solid 2px;
+		@apply text-red-500 px-6 py-3 rounded-lg hover:bg-red-600 hover:text-white transition-all duration-300 ease-in-out;
+	}
+
+	&--grey {
+		border: rgb(75, 85, 99) solid 2px;
+		@apply text-white px-6 py-3 rounded-lg hover:bg-gray-600 hover:text-white transition-all duration-300 ease-in-out;
+	}
+
+	&--red {
+		@apply text-white bg-red-500 px-6 py-3 rounded-lg hover:bg-red-600 transition-all duration-300 ease-in-out;
+	}
+
+	&--border {
+		border: #4f46e5 solid 2px;
+		@apply text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-500 hover:text-white transition-all duration-300 ease-in-out;
+	}
+}
